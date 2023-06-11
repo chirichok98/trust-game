@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "trustgame-6e2a8": {
+      "hosting": {
+        "trust-game": [
+          "trustgame-6e2a8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "trustgame-6e2a8"
+  }
+}

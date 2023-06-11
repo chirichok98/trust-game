@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngIf="loading else start" class="lds-ripple">
+    <div></div>
+    <div></div>
+  </div>
+  <ng-template #start>
+    <a class="button" [href]="link" style="--color:#1e9bff;">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      {{startButtonText}}
+    </a>
+  </ng-template>
+
+</div>

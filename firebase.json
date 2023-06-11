@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "trust-game",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
